@@ -4,11 +4,36 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>thdeadful</title>
+  <link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css" />
+  <link rel="icon" type="image/png" sizes="96x96" href="./assets/favicon-wh.png">
+  <link rel="stylesheet" href="./index.css">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-  <p>wait a minute...</p>
-  <script>
-    window.location.replace("https://www.instagram.com/thdeadful")
-  </script>
+   <div class="card" id="flip-card">
+    <article class="name-card card-front">
+      <h1 class="my-logo">김종민</h1>
+      <ul>
+        <li>
+          <a href="tel:+821094831618">+82 10-9483-1618</a>
+        </li>
+        <li>
+          <a href="mailto:thdeadful@gmail.com">thdeadful@gmail.com</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/thdeadful" target="_blank">@thdeadful</a>
+        </li>
+      </ul>
+      <div class="qr-sec my-logo">
+        <img src="./assets/JM-LOGO-Black.png" alt="Logo">
+      </div>
+    </article>
+    <article class="name-card card-back">
+      <h1>Creative Developer</h1>
+      <div class="my-logo"><img src="./assets/JM-LOGO-White.png" alt="Logo"></div>
+      <p>Design · Writing · Training</p>
+    </article>
+  </div>
+  <script src="./index.js"></script>
 </body>
 </html>
