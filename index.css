@@ -14,7 +14,7 @@ body {
 .card.flipped {
   transform: rotateY(180deg);
 }
-.name-card {
+.business-card {
   background: #000;
   color:#fff;
   position: absolute;
